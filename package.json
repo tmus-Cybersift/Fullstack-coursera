@@ -4,16 +4,22 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+	"start":"npm run lite",
+	"lite":"lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tmus-Cybersift/Fullstack-coursera.git"
+	
   },
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/tmus-Cybersift/Fullstack-coursera/issues"
   },
-  "homepage": "https://github.com/tmus-Cybersift/Fullstack-coursera#readme"
+  "homepage": "https://github.com/tmus-Cybersift/Fullstack-coursera#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
 }
